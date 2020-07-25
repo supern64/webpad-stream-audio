@@ -1,0 +1,23 @@
+{
+  "name": "streamaudioplayer",
+  "version": "1.0.0",
+  "description": "An audio player for streams with WebPad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supern64/webpad-stream-audio.git"
+  },
+  "author": "SuperN64",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supern64/webpad-stream-audio/issues"
+  },
+  "homepage": "https://github.com/supern64/webpad-stream-audio#readme",
+  "dependencies": {
+    "lame": "^1.2.4",
+    "naudiodon": "^2.2.4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"name": "StreamAudioPlayer",
+	"version": "1.0.0",
+	"description": "An audio player for streams with WebPad. (Don't adjust these settings unless instructed to. You must restart the server for changes to take effect.)",
+	"main": "index.js",
+	"configs": [
+		{"name": "deviceId", "friendlyName": "Playback Device ID (-2 = Auto detect)", "type": "number", "default": -2},
+		{"name": "sampleRate", "friendlyName": "Playback Sample Rate (hz)", "type": "number", "default": 44100}
+	]
+}
