@@ -29,8 +29,8 @@ new portAudio.AudioIO({outOptions: {channelCount: 2, sampleFormat: portAudio.Sam
 
 let songList;
 
-if (!fs.existsSync("./songs")) {
-	fs.mkdirSync("./addons")
+if (!fs.existsSync(__dirname + "/songs")) {
+	fs.mkdirSync(__dirname + "/songs")
 }
 
 let songFiles = fs.readdirSync(__dirname + "/songs")

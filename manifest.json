@@ -1,7 +1,7 @@
 {
 	"name": "StreamAudioPlayer",
 	"version": "1.0.0",
-	"description": "An audio player for streams with WebPad. (Don't adjust these settings unless instructed to. You must restart the server for changes to take effect.)",
+	"description": "An audio player for streams with WebPad.",
 	"main": "index.js",
 	"configs": [
 		{"name": "deviceId", "friendlyName": "Playback Device ID (-2 = Auto detect)", "type": "number", "default": -2},
